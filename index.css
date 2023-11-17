@@ -5,20 +5,26 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 3.6fr;
     margin: 0;
 }
 
 .sidebar {
     background-color: #0f172a;
     height: 100vh;
-    color: white;
-    padding-left: 1em;
+    color: #ffffff;
+    padding-left: 1.4em;
+    position: fixed;
+    width: 20.5%;
 }
 
-.navbar > div {
+.navbar > div, .sidebar-top {
+    gap: 0.7em;
     display: flex;
-    gap: 1em;
     align-items: center;
 }
+
+.navbar > div > img {
+    width: 25px;
+    height: 25px;
+}
+
