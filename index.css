@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Poppins;
+    src: url('./assets/Poppins-Regular.ttf');
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3.6fr;
+    margin: 0;
+}
+
+.sidebar {
+    background-color: #0f172a;
+    height: 100vh;
+    color: white;
+    padding-left: 1em;
+}
+
+.navbar > div {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
